@@ -43,16 +43,16 @@ define('SENDGRID_API_USER', '');
 define('SENDGRID_API_KEY', '');
 
 // Database driver: sqlite, mysql or postgres (sqlite by default)
-define('DB_DRIVER', 'sqlite');
+define('DB_DRIVER', 'mysql');
 
 // Mysql/Postgres username
-define('DB_USERNAME', 'root');
+define('DB_USERNAME', 'admin');
 
 // Mysql/Postgres password
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'admin');
 
 // Mysql/Postgres hostname
-define('DB_HOSTNAME', 'localhost');
+define('DB_HOSTNAME', '127.0.0.1');
 
 // Mysql/Postgres database name
 define('DB_NAME', 'kanboard');
